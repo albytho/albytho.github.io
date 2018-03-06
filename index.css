@@ -36,7 +36,7 @@ html, body {
 #intro-section h1{
   color: white;
   font-family: 'Raleway';
-  font-size: 300%;
+  font-size: 250%;
 }
 
 .intro-content img{
@@ -102,7 +102,7 @@ html, body {
 #edu-section h1{
   color: black;
   font-family: 'Raleway';
-  font-size: 300%;
+  font-size: 250%;
 }
 
 #exp-section{
@@ -131,7 +131,7 @@ html, body {
 #exp-section h1{
   color: white;
   font-family: 'Raleway';
-  font-size: 300%;
+  font-size: 250%;
 }
 
 #proj-section{
@@ -179,7 +179,7 @@ html, body {
 #side-section h1{
   color: white;
   font-family: 'Raleway';
-  font-size: 300%;
+  font-size: 250%;
 }
 
 #social-section{
