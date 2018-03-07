@@ -47,6 +47,7 @@ html, body {
   color: white;
   font-family: 'Raleway';
   font-size: 230%;
+  padding-top: 20px;
 }
 
 .intro-content img{
@@ -231,6 +232,11 @@ html, body {
 .fa-linkedin{
   font-size: 70px;
 }
+
+img.card-img-top:hover {
+  opacity: .8;
+}
+
 
 
 
