@@ -19,6 +19,7 @@ html, body {
   background-image: url('background.jpg');
   top: 0;
   background-size: cover;
+  position: relative;
 }
 
 .intro-inner{
@@ -34,10 +35,20 @@ html, body {
   text-align: center;
 }
 
+#intro-section span {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+#intro-section p{
+  color: white;
+}
+
 #intro-section h1{
   color: white;
   font-family: 'Raleway';
-  font-size: 250%;
+  font-size: 230%;
 }
 
 .intro-content img{
@@ -222,6 +233,7 @@ html, body {
 .fa-linkedin{
   font-size: 70px;
 }
+
 
 
 
