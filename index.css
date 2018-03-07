@@ -8,6 +8,7 @@ html, body {
 	height: 100%;
 	width: 100%;
   background-color: #F8F8F8;
+  overflow-x: hidden;
 }
 
 #intro-section{
@@ -221,4 +222,11 @@ html, body {
 .fa-linkedin{
   font-size: 70px;
 }
+
+
+
+
+
+
+
 
