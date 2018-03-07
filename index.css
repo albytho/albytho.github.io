@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+@media only screen and (max-device-width: 1125px){
+  h1{
+    font-size: 100%;
+  }
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
