@@ -20,7 +20,7 @@ html, body {
   height: 100%; 
   margin: 0 auto;
   display: table;
-  background-color: #6874e8;
+  background-color: #231651;
   top: 0;
   background-size: cover;
   position: relative;
@@ -127,7 +127,7 @@ html, body {
   height: 100%; 
   margin: 0 auto;
   display: table;
-  background-color: #f7accf;
+  background-color: #4dccbd;
   top: 0;
   background-size: cover;
 }
@@ -175,7 +175,7 @@ html, body {
   height: 100%; 
   margin: 0 auto;
   display: table;
-  background-color: #392759;
+  background-color: #2374ab;
   top: 0;
   background-size: cover;
 }
@@ -246,6 +246,11 @@ img.card-img-top:hover {
 h5{
   font-family: 'Raleway';
 }
+
+.side-content img:hover {
+  opacity: .8;
+}
+
 
 
 
