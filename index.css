@@ -53,7 +53,7 @@ html, body {
 #intro-section h1{
   color: white;
   font-family: 'Raleway';
-  font-size: 230%;
+  font-size: 250%;
   padding-top: 20px;
 }
 
@@ -164,7 +164,7 @@ html, body {
 #proj-section h1{
   color: black;
   font-family: 'Raleway';
-  font-size: 200%;
+  font-size: 250%;
 }
 
 .col-md-4{
@@ -198,6 +198,7 @@ html, body {
   color: white;
   font-family: 'Raleway';
   font-size: 250%;
+  padding-bottom: 10%;
 }
 
 #social-section{
@@ -252,6 +253,10 @@ h5{
   opacity: .8;
 }
 
+.img-fluid {
+  max-width: 200px;
+  max-height: 200px;
+}
 
 
 
