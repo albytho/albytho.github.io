@@ -1,10 +1,5 @@
-.home {
-	background: white;
-	color: black;
-}
-
 .nav-container {
-	background: #2d3436;
+	background: rgb(234, 240, 243);
 }
 
 nav {
@@ -13,7 +8,7 @@ nav {
 	min-height: 5vh;
 	padding: 3rem 0rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 
 	ul {
@@ -23,49 +18,126 @@ nav {
 		list-style: none;
 	}
 	#logo {
-		flex: 3;
+		flex: 5;
 		position: relative;
-		&::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 6rem;
-			height: 6rem;
-			background: #e17055;
-			border-radius: 50%;
-			transform: translate(-20%, -30%);
-			mix-blend-mode: screen;
+	}
+}
+
+.home-landing {
+	background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+	color: white;
+
+	.landing {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		min-height: 95vh;
+		justify-content: center;
+		align-items: center;
+
+		.text {
+			display: flex;
+			flex: 1;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+
+		.photo {
+			display: flex;
+			flex: 1;
+			justify-content: space-evenly;
+			align-items: center;
+
+			img {
+				height: 75%;
+				width: 75%;
+				object-fit: contain;
+				border-radius: 50%;
+			}
 		}
 	}
 }
 
-.landing {
-	display: flex;
-	min-height: 95vh;
-	justify-content: center;
-	align-items: center;
-	padding-left: 3rem;
-	padding-right: 3rem;
+.home-education {
+	background: white;
+	color: black;
 
-	.landing-text {
+	.education {
+		width: 80%;
+		margin: auto;
 		display: flex;
-		flex: 1;
+		min-height: 100vh;
 		justify-content: space-evenly;
 		align-items: center;
+		flex-direction: column;
+
+		.undergrad {
+			display: flex;
+		}
+
+		.graduate {
+			display: flex;
+		}
+
+		.text {
+			display: flex;
+			flex: 1;
+			justify-content: space-evenly;
+			align-items: center;
+			h2 {
+				font-size: 4.5rem;
+			}
+		}
+
+		.photo {
+			display: flex;
+			flex: 1;
+			justify-content: space-evenly;
+			align-items: center;
+
+			img {
+				height: 75%;
+				width: 75%;
+				object-fit: contain;
+			}
+		}
 	}
+}
 
-	.landing-photo {
+.home-job {
+	background-image: linear-gradient(-225deg, #2580b3 0%, #cbbacc 100%);
+	color: white;
+
+	.job {
+		width: 80%;
+		margin: auto;
 		display: flex;
-		flex: 1;
-		justify-content: space-evenly;
+		min-height: 100vh;
+		justify-content: center;
 		align-items: center;
 
-		img {
-			height: 75%;
-			width: 75%;
-			object-fit: contain;
-			border-radius: 50%;
+		.text {
+			display: flex;
+			flex: 2;
+			justify-content: space-evenly;
+			align-items: center;
+
+			h2 {
+				font-size: 4.5rem;
+			}
+		}
+
+		.photo {
+			display: flex;
+			flex: 1;
+			justify-content: space-evenly;
+			align-items: center;
+
+			img {
+				height: 40%;
+				width: 40%;
+				object-fit: contain;
+			}
 		}
 	}
 }
