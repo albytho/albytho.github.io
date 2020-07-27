@@ -107,8 +107,8 @@ nav .navbar-brand {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 50%;
-  -webkit-filter: drop-shadow(0px 5px 3px #1c5f86);
-          filter: drop-shadow(0px 5px 3px #1c5f86);
+  -webkit-filter: drop-shadow(15px 15px 15px #1c5f86);
+          filter: drop-shadow(15px 15px 15px #1c5f86);
 }
 
 .home-education {
