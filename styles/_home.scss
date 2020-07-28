@@ -138,3 +138,76 @@ nav {
 .hidden {
 	opacity: 0;
 }
+
+@media screen and (max-width: 1024px) {
+	h2 {
+		font-size: 3rem;
+	}
+
+	.home-landing .landing .text h2 {
+		font-size: 5rem;
+	}
+
+	.home-landing .landing .photo img {
+		height: 85%;
+		width: 85%;
+	}
+
+	.home-job .job .photo img {
+		height: 60%;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	.home-landing .landing {
+		flex-direction: column;
+		.text {
+			text-align: center;
+			h2 {
+				font-size: 4rem;
+			}
+		}
+
+		.photo {
+			align-items: flex-start;
+		}
+	}
+
+	.home-education .education {
+		.undergrad {
+			flex-direction: column-reverse;
+		}
+
+		.graduate {
+			flex-direction: column-reverse;
+		}
+
+		.text {
+			text-align: center;
+			h2 {
+				font-size: 2.5rem;
+				padding-bottom: 1.5rem;
+			}
+		}
+	}
+
+	.home-job .job {
+		flex-direction: column-reverse;
+		.text {
+			text-align: center;
+			align-items: flex-start;
+			h2 {
+				font-size: 3rem;
+			}
+		}
+		.photo img {
+			height: 50%;
+			width: 50%;
+		}
+	}
+}
