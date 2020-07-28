@@ -59,7 +59,7 @@ nav .nav-item {
 }
 
 .home-landing .landing {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,7 +123,7 @@ nav .nav-item {
 }
 
 .home-education .education {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,6 +139,8 @@ nav .nav-item {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: opacity 2s ease;
+  transition: opacity 2s ease;
 }
 
 .home-education .education .undergrad {
@@ -203,7 +205,7 @@ nav .nav-item {
 }
 
 .home-job .job {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,6 +217,8 @@ nav .nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: opacity 4s ease;
+  transition: opacity 4s ease;
 }
 
 .home-job .job .text {
@@ -252,5 +256,9 @@ nav .nav-item {
   width: 40%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.hidden {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
