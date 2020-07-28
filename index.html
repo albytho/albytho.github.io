@@ -16,41 +16,32 @@
 	<body>
 		<main>
 			<div class="nav-container">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarTogglerDemo01"
-						aria-controls="navbarTogglerDemo01"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					<div class="d-flex flex-grow-1">
+						<span class="w-100 d-lg-none d-block"
+							><!-- hidden spacer to center brand on mobile --></span
+						>
+						<a class="navbar-brand" href="#">
+							Alby Thomas
+						</a>
+						<div class="w-100 text-right">
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-toggle="collapse"
+								data-target="#myNavbar7"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</div>
+					</div>
 					<div
-						class="collapse navbar-collapse"
-						id="navbarTogglerDemo01"
+						class="collapse navbar-collapse flex-grow-1 text-right"
+						id="myNavbar7"
 					>
-						<a class="navbar-brand" href="#">Hidden brand</a>
-						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-							<li class="nav-item active">
-								<a class="nav-link" href="#"
-									>Home
-									<span class="sr-only">(current)</span></a
-								>
-							</li>
+						<ul class="navbar-nav ml-auto flex-nowrap">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item">
-								<a
-									class="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true"
-									>Disabled</a
-								>
+								<a href="#" class="nav-link">Resume</a>
 							</li>
 						</ul>
 					</div>
@@ -89,9 +80,9 @@
 						</div>
 						<div class="text">
 							<h2>
-								I'm currently a part-time remote student working
-								towards an M.S in Computer Science through
-								Georgia Tech's OMSCS program
+								I'm an incoming M.S in CS student at Georgia
+								Tech. Through OMSCS, I'll be taking my classes
+								remotely as a part-time student
 							</h2>
 						</div>
 					</div>
@@ -117,6 +108,16 @@
 			</section>
 		</main>
 
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+			crossorigin="anonymous"
+		></script>
 		<script src="app.js"></script>
 	</body>
 </html>

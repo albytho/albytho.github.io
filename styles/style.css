@@ -47,6 +47,12 @@ nav .navbar-brand {
   font-size: 2rem;
 }
 
+nav .nav-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+
 .home-landing {
   background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
   color: white;
@@ -163,8 +169,8 @@ nav .navbar-brand {
 }
 
 .home-education .education .text h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#2580b3), to(#e0b9e2));
-  background: linear-gradient(to right, #2580b3, #e0b9e2);
+  background: -webkit-gradient(linear, left top, right top, from(#b39bd1), to(#2580b3));
+  background: linear-gradient(to right, #b39bd1, #2580b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
