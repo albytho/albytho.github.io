@@ -258,6 +258,85 @@ nav .nav-item {
      object-fit: contain;
 }
 
+.home-projects {
+  color: black;
+}
+
+.home-projects p {
+  font-size: 1.5rem;
+}
+
+.home-projects .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.home-projects .projects .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-projects .projects .text h2 {
+  background: -webkit-gradient(linear, left top, right top, from(#b39bd1), to(#2580b3));
+  background: linear-gradient(to right, #b39bd1, #2580b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-projects .projects .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home-projects .projects .cards .card {
+  width: 40rem;
+  height: auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.home-projects .projects .cards .card:hover {
+  opacity: 0.5;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -279,7 +358,7 @@ nav .nav-item {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 829px) {
   h2 {
     font-size: 1.5rem;
   }
@@ -321,18 +400,26 @@ nav .nav-item {
   }
   .home-job .job {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .home-job .job .text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     text-align: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .home-job .job .text h2 {
     font-size: 3rem;
+  }
+  .home-job .job .photo {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
   }
   .home-job .job .photo img {
     height: 50%;

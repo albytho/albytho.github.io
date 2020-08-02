@@ -135,6 +135,57 @@ nav {
 	}
 }
 
+.home-projects {
+	color: black;
+
+	p {
+		font-size: 1.5rem;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: column;
+		max-width: 80%;
+		margin: auto;
+		min-height: 100vh;
+
+		.text {
+			display: flex;
+			flex: 1;
+			justify-content: center;
+			align-items: center;
+			h2 {
+				background: linear-gradient(to right, #b39bd1, #2580b3);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+
+		.cards {
+			display: flex;
+			flex: 1;
+			flex-direction: row;
+			justify-content: center;
+			align-items: flex-start;
+			flex-wrap: wrap;
+
+			.card {
+				width: 40rem;
+				height: auto;
+				margin-left: 2rem;
+				margin-right: 2rem;
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+				transition: all ease 0.25s;
+			}
+
+			.card:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+}
+
 .hidden {
 	opacity: 0;
 }
@@ -159,7 +210,7 @@ nav {
 	}
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 829px) {
 	h2 {
 		font-size: 1.5rem;
 	}
@@ -197,17 +248,21 @@ nav {
 	}
 
 	.home-job .job {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		.text {
+			flex: 1;
 			text-align: center;
-			align-items: flex-start;
+			align-items: flex-end;
 			h2 {
 				font-size: 3rem;
 			}
 		}
-		.photo img {
-			height: 50%;
-			width: 50%;
+		.photo {
+			flex: 2;
+			img {
+				height: 50%;
+				width: 50%;
+			}
 		}
 	}
 }
