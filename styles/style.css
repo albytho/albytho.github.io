@@ -188,7 +188,9 @@ nav .nav-item {
 .home-projects .projects .cards {
   display: flex;
   flex: 1;
+  flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .home-projects .projects .cards .card {

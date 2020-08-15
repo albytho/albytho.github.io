@@ -166,7 +166,9 @@ nav {
 		.cards {
 			display: flex;
 			flex: 1;
+			flex-direction: row;
 			justify-content: center;
+			align-items: flex-start;
 			flex-wrap: wrap;
 
 			.card {
