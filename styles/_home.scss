@@ -160,6 +160,7 @@ nav {
 			justify-content: center;
 			align-items: center;
 			margin-top: 3rem;
+			text-align: center;
 			h2 {
 				background: linear-gradient(to right, #b39bd1, #2580b3);
 				-webkit-background-clip: text;
@@ -280,9 +281,6 @@ nav {
 
 	.home-projects .projects {
 		.text {
-			margin-top: 2rem;
-			align-self: center;
-			text-align: center;
 			margin-top: 25%;
 			margin-bottom: 25%;
 		}
