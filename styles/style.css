@@ -44,6 +44,9 @@ nav {
 nav .navbar-brand {
   font-size: 2rem;
 }
+nav .navbar-toggler {
+  font-size: 2rem;
+}
 nav .nav-item {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -175,7 +178,7 @@ nav .nav-item {
 }
 .home-projects .projects .text {
   display: flex;
-  flex: 2;
+  flex: 1;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
@@ -286,6 +289,13 @@ nav .nav-item {
 
   .home-projects .projects .text {
     margin-top: 2rem;
+    align-self: center;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+  }
+  .home-projects .projects .cards .card {
+    width: 100%;
   }
   .home-projects .projects h2 {
     font-size: 3.5rem;
