@@ -272,7 +272,7 @@ nav .nav-item {
     align-items: flex-end;
   }
   .home-job .job .text h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .home-job .job .photo {
     flex: 2;
@@ -286,7 +286,7 @@ nav .nav-item {
     margin-top: 2rem;
   }
   .home-projects .projects h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 .hidden {
