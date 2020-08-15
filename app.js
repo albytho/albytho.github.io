@@ -13,6 +13,7 @@ function scanDocument() {
 	let sectionList = document.querySelectorAll(".hidden");
 	sectionList.forEach(function (section) {
 		if (isVisibile(section)) {
+			console.log(section);
 			section.classList.remove("hidden");
 		}
 	});

@@ -6,8 +6,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -42,11 +41,9 @@ p {
 nav {
   min-height: 5vh;
 }
-
 nav .navbar-brand {
   font-size: 2rem;
 }
-
 nav .nav-item {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -57,271 +54,143 @@ nav .nav-item {
   background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
   color: white;
 }
-
 .home-landing .landing {
   max-width: 80%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 95vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .home-landing .landing .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-landing .landing .text h2 {
   font-size: 7rem;
 }
-
 .home-landing .landing .photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-landing .landing .photo img {
   height: 75%;
   width: 75%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 50%;
-  -webkit-filter: drop-shadow(15px 15px 15px #1c5f86);
-          filter: drop-shadow(15px 15px 15px #1c5f86);
+  filter: drop-shadow(15px 15px 15px #1c5f86);
 }
 
 .home-education {
   background: white;
   color: black;
 }
-
 .home-education .education {
   max-width: 80%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-transition: opacity 2s ease;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   transition: opacity 2s ease;
 }
-
 .home-education .education .undergrad {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .home-education .education .graduate {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .home-education .education .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-education .education .text h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#b39bd1), to(#2580b3));
   background: linear-gradient(to right, #b39bd1, #2580b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .home-education .education .photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-education .education .photo img {
   height: 75%;
   width: 75%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .home-job {
   background-image: linear-gradient(-225deg, #2580b3 0%, #cbbacc 100%);
   color: white;
 }
-
 .home-job .job {
   max-width: 80%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: opacity 4s ease;
-  transition: opacity 4s ease;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 2s ease;
 }
-
 .home-job .job .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 2;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-job .job .photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .home-job .job .photo img {
   height: 40%;
   width: 40%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .home-projects {
   color: black;
 }
-
 .home-projects p {
   font-size: 1.5rem;
 }
-
 .home-projects .projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   max-width: 80%;
   margin: auto;
   min-height: 100vh;
+  transition: opacity 4s ease;
 }
-
 .home-projects .projects .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
-
 .home-projects .projects .text h2 {
-  background: -webkit-gradient(linear, left top, right top, from(#b39bd1), to(#2580b3));
   background: linear-gradient(to right, #b39bd1, #2580b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .home-projects .projects .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 .home-projects .projects .cards .card {
   width: 40rem;
   height: auto;
@@ -329,10 +198,8 @@ nav .nav-item {
   margin-right: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-transition: all ease 0.25s;
-  transition: all ease 0.25s;
+  transition: opacity ease 0.25s;
 }
-
 .home-projects .projects .cards .card:hover {
   opacity: 0.5;
 }
@@ -345,28 +212,32 @@ nav .nav-item {
   h2 {
     font-size: 3rem;
   }
+
   .home-landing .landing .text h2 {
     font-size: 5rem;
   }
+
   .home-landing .landing .photo img {
     height: 85%;
     width: 85%;
   }
+
   .home-job .job .photo img {
     height: 60%;
     width: 60%;
   }
-}
 
+  .home-projects .projects .text {
+    margin-top: 2rem;
+  }
+}
 @media screen and (max-width: 829px) {
   h2 {
     font-size: 1.5rem;
   }
+
   .home-landing .landing {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .home-landing .landing .text {
     text-align: center;
@@ -375,55 +246,51 @@ nav .nav-item {
     font-size: 4rem;
   }
   .home-landing .landing .photo {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
   }
+
   .home-education .education .undergrad {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .home-education .education .graduate {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .home-education .education .text {
     text-align: center;
   }
   .home-education .education .text h2 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     padding-bottom: 1.5rem;
   }
+
   .home-job .job {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .home-job .job .text {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     text-align: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
   }
   .home-job .job .text h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .home-job .job .photo {
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    flex: 2;
   }
   .home-job .job .photo img {
     height: 50%;
     width: 50%;
   }
+
+  .home-projects .projects .text {
+    margin-top: 2rem;
+  }
+  .home-projects .projects h2 {
+    font-size: 4rem;
+  }
 }
+.hidden {
+  opacity: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
