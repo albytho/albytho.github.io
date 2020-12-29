@@ -25,6 +25,16 @@ body {
 .hero .hero-wrapper p {
   font-size: 14pt;
 }
+.hero .photo-credits {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #a5a5a5;
+  font-size: 8pt;
+}
+.hero .photo-credits a {
+  color: inherit;
+}
 
 .container {
   margin: 0 auto;
@@ -54,7 +64,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container .content .cards-container .post-card {
-    width: 31.25%;
+    width: 27%;
   }
 }
 .container .content .cards-container .post-card a {
@@ -81,7 +91,7 @@ footer .fa {
   transition: 0.3s ease;
 }
 footer .fa-github-square:hover {
-  color: #8760e2;
+  color: #6e5494;
 }
 footer .fa-linkedin-square:hover {
   color: #0e76a8;
