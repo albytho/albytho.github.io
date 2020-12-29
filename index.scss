@@ -36,6 +36,14 @@ body{
     .content {
         padding: 3.75rem 0;
 
+        .school{
+            padding: 1rem;
+        }
+
+        .job{
+            padding-top: 1rem;
+        }
+
         .cards-container {
             display: flex;
             flex-wrap: wrap;
@@ -47,7 +55,7 @@ body{
                 box-shadow: 0 2px 6px rgba(0,0,0,0.1);
                 transition: .25s ease;
                 margin: 1.75rem;
-                width: 60%;
+                width: 80%;
 
                 @media (min-width: 1200px){
                     width: 31.25%;
