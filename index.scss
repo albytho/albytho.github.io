@@ -78,5 +78,27 @@ body{
                 box-shadow: 0 5px 12px rgba(0,0,0,0.8);
             }
         }
+
+    }
+}
+
+footer{
+    text-align: center;
+    align-content: center;
+
+    a{
+        color: inherit;
+    }
+
+    .fa{
+        transition: 0.3s ease;
+    }
+
+    .fa-github-square:hover{
+        color: rgb(135, 96, 226);
+    }
+    
+    .fa-linkedin-square:hover{
+        color: rgb(14, 118, 168);
     }
 }

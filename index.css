@@ -70,4 +70,21 @@ body {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.8);
 }
 
+footer {
+  text-align: center;
+  align-content: center;
+}
+footer a {
+  color: inherit;
+}
+footer .fa {
+  transition: 0.3s ease;
+}
+footer .fa-github-square:hover {
+  color: #8760e2;
+}
+footer .fa-linkedin-square:hover {
+  color: #0e76a8;
+}
+
 /*# sourceMappingURL=index.css.map */
