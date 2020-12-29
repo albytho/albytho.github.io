@@ -48,12 +48,17 @@ body{
     .content {
         padding: 3.75rem 0;
 
+        .introduction-text {
+            padding-bottom: 1rem
+        }
+
         .school{
             padding: 1rem;
         }
 
         .job{
             padding-top: 1rem;
+            padding-bottom: 1rem
         }
 
         .cards-container {

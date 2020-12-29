@@ -43,11 +43,15 @@ body {
 .container .content {
   padding: 3.75rem 0;
 }
+.container .content .introduction-text {
+  padding-bottom: 1rem;
+}
 .container .content .school {
   padding: 1rem;
 }
 .container .content .job {
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .container .content .cards-container {
   display: flex;
