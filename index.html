@@ -1,221 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="./styles/style.css" />
-		<title>Alby Thomas Portfolio</title>
-	</head>
-	<body>
-		<main>
-			<div class="nav-container">
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-					<div class="d-flex flex-grow-1">
-						<span class="w-100 d-lg-none d-block"
-							><!-- hidden spacer to center brand on mobile --></span
-						>
 
-						<div class="w-100 text-right">
-							<button
-								class="navbar-toggler"
-								type="button"
-								data-toggle="collapse"
-								data-target="#myNavbar7"
-							>
-								<span class="navbar-toggler-icon"></span>
-							</button>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<link rel="stylesheet" href="index.css" />
+	<title>Alby Thomas Portfolio</title>
+</head>
+
+<body>
+	<div class="hero">
+		<div class="hero-wrapper">
+			<h1>Alby Thomas</h1>
+			<p>albygthomas@gmail.com</p>
+		</div>
+	</div>
+	<main>
+		<div class="container">
+			<div class="content">
+				<section class="introduction">
+					<h1>Hello World! 👋</h1>
+					<p>
+						I'm a software engineer with a passion for machine learning and full-stack development.
+						Currently, I
+						work as a software engineer at JPMorgan Chase in NYC where I work on modeling data analytics for
+						the
+						<a href="https://chase.com">Chase</a> website. On top of this, I'm also pursuing an M.S in
+						Computer Science at Georgia Tech as a part-time remote student specializing in machine learning.
+					</p>
+				</section>
+				<hr>
+				<section class="education">
+					<h2>Education 🏫</h2>
+					<div class="row">
+						<div class="col-6">
+							<h4>Georgia Institute of Technology 🐝</h4>
+							<p>
+								Aug 2019 - Dec 2022 (expected)<br>
+								M.S Computer Science<br>
+								Specialization: Machine Learning<br>
+								GPA: 4.0/4.0
+							</p>
+							<h5>Courses</h5>
+							<p>
+								Knowledge Based Artificial Intelligence<br>
+								Graduate Introduction to Operating Systems
+							</p>
+						</div>
+						<div class="col-6">
+							<h4>University of Michigan - Ann Arbor 〽️</h4>
+							<p>
+								Sep 2015 - May 2019<br>
+								B.S Computer Science
+							</p>
+							<h5>Courses</h5>
+							<p>
+								Computer Vision<br>
+								Web Systems<br>
+								Information Retrieval and Web Search<br>
+								Introduciton to Computer Security<br>
+								Data Structures and Algorithms<br>
+								Foundations of Computer Science
+							</p>
 						</div>
 					</div>
-					<div
-						class="collapse navbar-collapse flex-grow-1 text-right"
-						id="myNavbar7"
-					>
-						<ul class="navbar-nav ml-auto flex-nowrap">
-							<li class="nav-item">
-								<a
-									href="https://drive.google.com/file/d/1A5dzZHYg94-13xt7_C5fGhJXt__Bnsof/view?usp=sharing"
-									class="nav-link"
-									>Resume</a
-								>
-							</li>
-							<li class="nav-item">
-								<a
-									href="https://www.linkedin.com/in/albytho/"
-									class="nav-link"
-									>LinkedIn</a
-								>
-							</li>
-						</ul>
+				</section>
+				<hr>
+				<section class="experience">
+					<h2>Experience 🏢</h2>
+					<div class="row">
+						<h4 class="col-6">JPMorgan Chase & Co.</h4>
+						<h5 class="col-6 text-right">Aug 2019 - Current</h5>
 					</div>
-				</nav>
+					<div class="row">
+						<p class="col-6">Software Engineer</p>
+						<p class="col-6 text-right">New York, New York</p>
+					</div>
+					<ul>
+						<li>
+							Further enhanced a full-stack web application (React, Java Spring Boot, and Oracle Database)
+							that acts as a central hub of the most up-to-date product and service information for
+							consumer applications to subscribe to. Led the development of key features such as bulk
+							update and data flat view.
+						</li>
+						<li>
+							Developed a full-stack web application (Angular, Java Spring Boot, and Oracle Database) that
+							enables users to easily visualize and manipulate audit data, streamlining the audit
+							management process. Decreased audit lookup time substantially by implementing search
+							features such as sorting and filtering. Received $500,000 in further funding for continued
+							development as a result of high stakeholder interest.
+						</li>
+					</ul>
+				</section>
 			</div>
+		</div>
+	</main>
+</body>
 
-			<section class="home-landing">
-				<div class="landing">
-					<div class="text">
-						<h2>Hello, World! I'm Alby</h2>
-					</div>
-					<div class="photo">
-						<img src="./img/landing-profile.png" alt="" />
-					</div>
-				</div>
-			</section>
-
-			<section class="home-education">
-				<div class="education hidden">
-					<div class="undergrad">
-						<div class="photo">
-							<img src="./img/umich-logo.png" alt="" />
-						</div>
-						<div class="text">
-							<h2>
-								I graduated from the University of Michigan with
-								a B.S in Computer Science in May 2019
-							</h2>
-						</div>
-					</div>
-
-					<div class="graduate">
-						<div class="photo">
-							<img src="./img/georgia-tech-logo.png" alt="" />
-						</div>
-						<div class="text">
-							<h2>
-								I'm an incoming M.S in CS student at Georgia
-								Tech through the OMSCS program
-							</h2>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="home-job">
-				<div class="job hidden">
-					<div class="text">
-						<h2>
-							I'm currently a full-stack developer at JPMorgan
-							Chase in Chicago working on client onboarding
-							applictions within Commercial Banking
-						</h2>
-					</div>
-					<div class="photo">
-						<img src="./img/jp-logo.png" alt="" />
-					</div>
-				</div>
-			</section>
-
-			<section class="home-projects">
-				<div class="projects hidden">
-					<div class="text">
-						<h2>
-							Here are some of my interesting side projects
-						</h2>
-					</div>
-					<div class="cards">
-						<div class="card">
-							<!-- Card image -->
-							<a
-								href="https://github.com/albytho/path-visualization"
-							>
-								<img
-									class="card-img-top"
-									src="./img/pathVisualization.png"
-								/>
-							</a>
-
-							<!-- Card content -->
-							<div class="card-body">
-								<!-- Title -->
-								<h4 class="card-title">
-									<a>Search Algorithm Visualizer</a>
-								</h4>
-								<!-- Text -->
-								<p class="card-text">
-									React based application that animates search
-									algorithms such as Breadth First Search and
-									Depth First Search
-								</p>
-							</div>
-						</div>
-
-						<div class="card">
-							<!-- Card image -->
-							<a
-								href="https://github.com/albytho/fashion_bot_497"
-							>
-								<img
-									class="card-img-top"
-									src="./img/deepFashion.png"
-								/>
-							</a>
-
-							<!-- Card content -->
-							<div class="card-body">
-								<!-- Title -->
-								<h4 class="card-title"><a>Deep Fashion</a></h4>
-								<!-- Text -->
-								<p class="card-text">
-									Full-stack application that uses deep
-									learning to help users find cheaper, yet
-									stylish, alternatives to overpriced clothing
-								</p>
-							</div>
-						</div>
-
-						<div class="card">
-							<!-- Card image -->
-							<a
-								href="https://github.com/albytho/Titanic-Machine-Learning-From-Disaster"
-							>
-								<img
-									class="card-img-top"
-									src="./img/titanic.png"
-								/>
-							</a>
-
-							<!-- Card content -->
-							<div class="card-body">
-								<!-- Title -->
-								<h4 class="card-title">
-									<a
-										>Titanic - Machine Learning from
-										Disaster</a
-									>
-								</h4>
-								<!-- Text -->
-								<p class="card-text">
-									Used an artificial nueral network to predict
-									how likely passengers were to survive on the
-									Titanic given a database of their
-									information. This database was a part of a
-									Kaggle Contest. Using my method, I had a 77%
-									accuracy, placing me at the top 7% of
-									submissions
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-			crossorigin="anonymous"
-		></script>
-		<script src="app.js"></script>
-	</body>
 </html>
