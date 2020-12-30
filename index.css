@@ -25,16 +25,6 @@ body {
 .hero .hero-wrapper p {
   font-size: 14pt;
 }
-.hero .photo-credits {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #a5a5a5;
-  font-size: 8pt;
-}
-.hero .photo-credits a {
-  color: inherit;
-}
 
 .container {
   margin: 0 auto;
