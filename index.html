@@ -37,14 +37,12 @@
             <div class="introduction-text">
               <h1>Hello World! 👋</h1>
               <p>
-                I'm a software engineer based in NYC with a passion for machine
-                learning and full-stack development. Currently, I work as a
-                software engineer at
+                I'm a software engineer based in NYC with a passion for
+                full-stack development. Currently, I work as a software engineer
+                at
                 <a href="https://capsule.com/" target="_blank">Capsule</a> where
-                I build services that seamlessly integrate partnerships into our
-                pharmacy workflow. On top of this, I'm also pursuing an M.S in
-                Computer Science at Georgia Tech as a part-time remote student
-                specializing in machine learning.
+                I build consumer facing services that seamlessly integrate
+                partnerships into our pharmacy workflow.
               </p>
             </div>
           </section>
@@ -52,36 +50,17 @@
           <section class="education">
             <h2>Education 🏫</h2>
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-lg-6 school">
-                <h4>Georgia Institute of Technology 🐝</h4>
-                <p>
-                  Aug 2020 - May 2023 (expected)<br />
-                  M.S Computer Science<br />
-                  Specialization in Machine Learning<br />
-                  GPA: 4.0
-                </p>
-                <h5>Courses</h5>
-                <p>
-                  Knowledge Based Artificial Intelligence<br />
-                  Graduate Introduction to Operating Systems<br />
-                  Machine Learning For Trading<br />
-                  Machine Learning
-                </p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-lg-6 school">
+              <div class="col-xs-12 col-sm-12 col-lg-12 school">
                 <h4>University of Michigan 〽️</h4>
-                <p>
-                  Sep 2015 - May 2019<br />
-                  B.S Computer Science
-                </p>
+                <div class="row">
+                  <p class="col">B.S Computer Science</p>
+                  <p class="col-6 text-right">Sep 2015 - May 2019</p>
+                </div>
                 <h5>Courses</h5>
                 <p>
-                  Computer Vision<br />
-                  Web Systems<br />
-                  Information Retrieval and Web Search<br />
-                  Introduciton to Computer Security<br />
-                  Data Structures and Algorithms<br />
-                  Foundations of Computer Science
+                  Computer Vision, Web Systems, Information Retrieval and Web
+                  Search, Introduciton to Computer Security, Data Structures and
+                  Algorithms, Foundations of Computer Science
                 </p>
               </div>
             </div>
@@ -99,14 +78,27 @@
               </div>
               <ul>
                 <li>
-                  Developing microservices that integrate patients from
-                  partnering telehealth and insurance companies into customized
-                  workflows within Capsule's prescription delivery system
+                  Led the development of a daily patient adherence calculator
+                  that aggregates prescription data across various healthcare
+                  partners and computes prescription compliance for over 50,000
+                  patients
                 </li>
                 <li>
-                  Leading the development of an adherence metric service that
-                  calculates patient and partner level insights that evaluates
-                  health plan performances
+                  Directed the back-end development efforts of Capsule’s Rx
+                  status bar by creating a microservice that subscribes to
+                  prescription status updates through an outbox pattern and
+                  allows customers to know real-time updates on their
+                  prescriptions
+                </li>
+                <li>
+                  Spearheaded the integration of AWS Canaries onto existing
+                  systems with high traffic to better monitor the health and
+                  latency of endpoints and web pages
+                </li>
+                <li>
+                  Modernized existing delivery workflow by automating status
+                  checks and reducing the need for manual discrepancy
+                  investigation on 17 percent of incoming orders
                 </li>
               </ul>
             </div>
@@ -233,18 +225,21 @@
       </div>
     </main>
     <footer>
-      <div>
+      <div class="socials">
         <a href="https://github.com/albytho" target="_blank"
-          ><i class="fa fa-github-square fa-3x" aria-hidden="true"></i
+          ><i class="fa fa-github fa-3x" aria-hidden="true"></i
         ></a>
         <a href="https://www.linkedin.com/in/albytho/" target="_blank"
-          ><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i
+          ><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i
         ></a>
-        <a href="https://www.instagram.com/alby_tho/" target="_blank"
-          ><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a
+        <a
+          href="https://drive.google.com/file/d/1A5dzZHYg94-13xt7_C5fGhJXt__Bnsof/view?usp=sharing"
+          target="_blank"
+        >
+          <i class="fa fa-file fa-3x" aria-hidden="true"></i> </a
         ><br />
-        <span>© 2020 Alby Thomas. All rights reserved.</span>
       </div>
+      <span>© 2022 Alby Thomas. All rights reserved.</span>
     </footer>
   </body>
 </html>

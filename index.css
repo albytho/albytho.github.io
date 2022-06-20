@@ -81,17 +81,25 @@ footer {
 footer a {
   color: inherit;
 }
+footer .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 footer .fa {
   transition: 0.3s ease;
 }
-footer .fa-github-square:hover {
-  color: #6e5494;
+footer .fa-github:hover {
+  color: rgb(110, 84, 148);
 }
 footer .fa-instagram:hover {
-  color: #e95950;
+  color: rgb(233, 89, 80);
 }
-footer .fa-linkedin-square:hover {
-  color: #0e76a8;
+footer .fa-linkedin:hover {
+  color: rgb(14, 118, 168);
+}
+footer .fa-file:hover {
+  color: rgb(72, 88, 208);
 }
 
 /*# sourceMappingURL=index.css.map */
